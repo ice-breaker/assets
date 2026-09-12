@@ -1,0 +1,33 @@
+# VK: объединённый классический rule-set для Mihomo; дубликаты удалены.
+# Источники:
+# - https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/VK
+# - https://github.com/legiz-ru/mihomo-rule-sets/blob/main/other/wld.list
+# - https://github.com/legiz-ru/mihomo-rule-sets/blob/main/other/wldc.yaml
+# - https://github.com/legiz-ru/mihomo-rule-sets/blob/main/other/inline/ru-inline.yaml
+# - https://github.com/legiz-ru/mihomo-rule-sets/blob/main/other/ru-app-list.yaml
+payload:
+  - DOMAIN-SUFFIX,cdn-vk.ru
+  - DOMAIN-SUFFIX,mvk.com
+  - DOMAIN-SUFFIX,userapi.com
+  - DOMAIN-SUFFIX,vk-cdn.me
+  - DOMAIN-SUFFIX,vk-cdn.net
+  - DOMAIN-SUFFIX,vk-portal.net
+  - DOMAIN-SUFFIX,vk.cc
+  - DOMAIN-SUFFIX,vk.com
+  - DOMAIN-SUFFIX,vk.ru
+  - PROCESS-NAME,com.vk.admin
+  - PROCESS-NAME,com.vk.calls
+  - PROCESS-NAME,com.vk.clips
+  - PROCESS-NAME,com.vk.im
+  - PROCESS-NAME,com.vk.love
+  - PROCESS-NAME,com.vk.mail
+  - PROCESS-NAME,com.vk.tv
+  - PROCESS-NAME,com.vk.vkvideo
+  - PROCESS-NAME,com.uma.musicvk
+  - PROCESS-NAME,com.vkontakte.android
+  - PROCESS-NAME,live.vkplay.app
+  - PROCESS-NAME,ru.vk.hrtek
+  - PROCESS-NAME,ru.vk.store
+  - PROCESS-NAME,ru.vk.video
+  - PROCESS-NAME,ru.vkmusic.audio
+  - PROCESS-NAME,ru.vkpm.comedy
