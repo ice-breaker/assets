@@ -1,0 +1,26 @@
+# Ozon: объединённый классический rule-set для Mihomo; дубликаты удалены.
+# Источники:
+# - https://github.com/legiz-ru/mihomo-rule-sets/blob/main/other/wld.list
+# - https://github.com/legiz-ru/mihomo-rule-sets/blob/main/other/wldc.yaml
+# - https://github.com/legiz-ru/mihomo-rule-sets/blob/main/other/ru-app-list.yaml
+# - hosts/ice-breaker/rw-prod/modules/templates/mihomo/testing.yaml (ozonusercontent.com)
+payload:
+  - DOMAIN-SUFFIX,ozon.ru
+  - DOMAIN-SUFFIX,ozonusercontent.com
+  - DOMAIN-SUFFIX,ozone.ru
+  - PROCESS-NAME,ru.ozon.app.android
+  - PROCESS-NAME,ru.ozon.chatzone
+  - PROCESS-NAME,ru.ozon.fintech.apvz
+  - PROCESS-NAME,ru.ozon.fintech.finance
+  - PROCESS-NAME,ru.ozon.fintech.sme
+  - PROCESS-NAME,ru.ozon.flex
+  - PROCESS-NAME,ru.ozon.fresh
+  - PROCESS-NAME,ru.ozon.hire
+  - PROCESS-NAME,ru.ozon.magistral
+  - PROCESS-NAME,ru.ozon.maple_app
+  - PROCESS-NAME,ru.ozon.ozon_pvz
+  - PROCESS-NAME,ru.ozon.profit
+  - PROCESS-NAME,ru.ozon.select
+  - PROCESS-NAME,ru.ozon.seller_app
+  - PROCESS-NAME,ru.ozon.tv
+  - PROCESS-NAME,travel.ozon.mobile
