@@ -1,0 +1,9 @@
+# AliExpress: объединённый классический rule-set для Mihomo; дубликаты удалены.
+# Источники:
+# - https://github.com/legiz-ru/mihomo-rule-sets/blob/main/other/ru-app-list.yaml
+# - https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/Ruleset/Alibaba.list
+# - https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Alibaba/Alibaba_Classical.yaml
+payload:
+  - DOMAIN-SUFFIX,aliexpress.com
+  - DOMAIN-SUFFIX,aliexpress.ru
+  - PROCESS-NAME,ru.aliexpress.buyer
